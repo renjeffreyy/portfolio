@@ -6,10 +6,14 @@ import RightSidebar from "./components/right-sidebar.component"
 import LeftSidebar from "./components/left-sidebar.component"
 import Footer from "./components/footer.component"
 import Projects from "./components/projects.component"
+import Nav from "./components/nav.component"
 
 function App() {
   return (
     <div className="App">
+      <header>
+      <Nav></Nav>
+      </header>
       <main className="main-content-container">
         <section className="hero-secion">
           <Hero></Hero>
